@@ -1,0 +1,63 @@
+/* Reset simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+header,
+section,
+footer {
+  margin-bottom: 20px;
+}
+
+/* style */
+header h2:first-of-type {
+  color: hsl(212, 6%, 44%);
+  font-weight: 400;
+}
+header h2:last-of-type {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+p {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+}
+header{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    box-shadow: 0px 10px 20px hsla(210, 6%, 44%, 0.493);
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border-top: 5px solid;
+    border-top-color:  var(--bt-color, black);
+}
+section h3{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+img {
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    width: 64px;
+    height: auto;
+}
